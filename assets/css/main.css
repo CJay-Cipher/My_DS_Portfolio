@@ -210,7 +210,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #d8617b !important;
 		}
 
 	strong, b {
@@ -3144,7 +3144,7 @@ input, select, textarea {
 				}
 
 			#nav ul.links li.active {
-				background-color: #e6cccc;
+				background-color: #ffffff;
 			}
 
 				#nav ul.links li.active a {

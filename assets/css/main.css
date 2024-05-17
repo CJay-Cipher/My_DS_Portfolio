@@ -210,7 +210,8 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #d8617b !important;
+			color: #ffffff !important;
+			font-weight: bold;
 		}
 
 	strong, b {
@@ -3133,26 +3134,29 @@ input, select, textarea {
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				display: block;
 				font-size: 0.8rem;
+				font-weight: lighter;
 				outline: none;
 				padding: 0 2rem;
-				color: #000000;
+				color: #665c5c;
 			}
 
 				#nav ul.links li a:hover {
-					color: #a77b7b;
-					background-color: rgba(255, 255, 255, 0.1);
+					color: #e2bcbc;
+					background-color: rgba(165, 147, 147, 0.74);
 				}
 
 			#nav ul.links li.active {
-				background-color: #f4edea;
+				background-color: #ffffff;
 			}
 
 				#nav ul.links li.active a {
-					color: #8a5b5b;
+					color: #000000;
+					font-weight: bolder;
+					/* font-size: medium; */
 				}
 
 					#nav ul.links li.active a:hover {
-						color: #5a1313 !important;
+						color: #151414 !important;
 					}
 
 	#nav ul.icons {
@@ -3202,8 +3206,8 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
-		color: #ffffff;
+		background: #3a3838;
+		color: #e4d1d1;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;

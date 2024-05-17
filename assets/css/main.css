@@ -3044,7 +3044,7 @@ input, select, textarea {
 	padding: 0 2rem 0 0;
 	position: relative;
 	width: calc(100% - 4rem);
-	max-width: 72rem;
+	max-width: 60rem;
 	z-index: 2;
 }
 
@@ -3141,7 +3141,7 @@ input, select, textarea {
 
 				#nav ul.links li a:hover {
 					color: #ffffff;
-					background-color: rgba(165, 147, 147, 0.74);
+					background-color: #9b9a9ac4;
 				}
 
 			#nav ul.links li.active {
@@ -3205,8 +3205,8 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #3a3838;
-		color: #e4d1d1;
+		background: #3a3a3a;
+		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
